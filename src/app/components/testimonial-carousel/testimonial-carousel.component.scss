@@ -1,0 +1,12 @@
+.opacity-change {
+  animation: opacity-animation 0.8s ease-in-out forwards;
+}
+
+@keyframes opacity-animation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

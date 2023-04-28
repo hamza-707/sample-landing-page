@@ -1,0 +1,24 @@
+<div id="slider" class="h-24 left-0 relative">
+  <div class="text-white text-xl text-center">
+    {{ selectedTestimonial.text }}
+  </div>
+  <div class="text-white text-center mt-6 font-light">
+    - {{ selectedTestimonial.author }}
+  </div>
+</div>
+<div class="absolute bottom-8 w-full pe-56">
+  <div class="flex justify-center">
+    <button
+      class="bg-primary text-white text-xl py-3 px-6 me-4"
+      (click)="move('backward')"
+    >
+      <
+    </button>
+    <button
+      class="bg-primary text-white text-xl py-3 px-6"
+      (click)="move('forward')"
+    >
+      >
+    </button>
+  </div>
+</div>
