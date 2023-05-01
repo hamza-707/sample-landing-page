@@ -176,7 +176,9 @@
     width: 100%;
   }
   .parallax-header {
-    height: 70vh;
-    width: 100%;
+    height: auto;
+  }
+  .parallax-section {
+    height: auto;
   }
 }
