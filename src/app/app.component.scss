@@ -165,3 +165,18 @@
   z-index: -1;
   background-attachment: fixed;
 }
+
+@media only screen and (max-width: 600px) {
+  .scroller{
+    width: 8em;
+  }
+  .mobile-wrapper {
+    overflow-x: hidden;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  .parallax-header {
+    height: 70vh;
+    width: 100%;
+  }
+}
